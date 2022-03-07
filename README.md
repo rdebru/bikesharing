@@ -10,33 +10,38 @@
 * to Change Trip Duration to a Datetime Format and create a set of visualizations to
 	- the Checkout Times for Users Viz
 	- the Checkout Times by Gender Viz
-- the Trips by User Weekday for Each Hour Viz
-- the Trips by Gender (Weekday per Hour) Viz
-- the User Trips by Gender by Weekday Viz
+	- the Trips by User Weekday for Each Hour Viz
+	- the Trips by Gender (Weekday per Hour) Viz
+	- the User Trips by Gender by Weekday Viz
 	- As well create a story and a written summary for the Bike trip Anaysis.
 
 ## **Results** 
 
-* Total Rides
-![Total Rides](./Datasources/Total_rides.PNG)
-* This is the total number of bike rides 
+* Total Rides 
 
+![Rides](./Datasources/Total_rides_gender_Breakdown.PNG) 
+
+* The total number of bike rides are 2,344,224. 65% of the bike riders are Males, 25% are Females and 9.6% Unknown 
+	 
 * Top Starting locations
 ![Checkout Times](./Datasources/Top_Starting_Locs.PNG) 
 
 * The above map shows most popular locations for starting bike journey or trips. The darker and larger the circle means more stations and more tourists. This helps us identify the highest-traffic locations. 
 
-* Top End locations
+* Top End locations 
+
 ![Checkout Times](./Datasources/End_locations.PNG)
 
 * This map above shows the most popular locations for bike drop off locations. The darker(red) and larger the circle means the more stations in that location. 
 
-* Checkout Times for Users
+* Checkout Times for Users 
+
 ![Checkout Times user](./Datasources/Checkout_Users.PNG) 
 
 * the above viz shows the length of time that bikes are checked out for all users. The number of bikes checked out are highest for trip duration less that 25 minutes. 
 
-* Checkout Times by Gender
+* Checkout Times by Gender 
+
 ![Checkout Times Gender](./Datasources/Checkout_Times_Gender.PNG) 
 
 * the above viz shows the length of time that bikes are checked out by gender. The Orange line shows that the highest number of bikes are checked out by Male for most active trip duration which is less 25 minutes. Next is blue line which are female riders. 
