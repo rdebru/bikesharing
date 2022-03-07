@@ -7,7 +7,7 @@
 * In this challenge we will analyze the Citi Bike data for New York City and create visualization to convince investors that a bike-sharing program in Des Moines is a solid business proposal. We will also create a story and bike trip analysis for the stakeholders.
 
 ### Purpose 
-* to Change Trip Duration to a Datetime Format and create a set of visualizations to
+* to Change Trip Duration to a Datetime Format and create the following visualizations
 	- the Checkout Times for Users Viz
 	- the Checkout Times by Gender Viz
 	- the Trips by User Weekday for Each Hour Viz
@@ -17,51 +17,52 @@
 
 ## **Results** 
 
-* Total Rides 
+### Total Rides and Breakdown of gender
 
-![Rides](./Datasources/Total_rides_gender_Breakdown.PNG) 
+![Rides](./Datasources/Total_rides_gender_Breakdown.png) 
 
 * The total number of bike rides are 2,344,224. 65% of the bike riders are Males, 25% are Females and 9.6% Unknown 
 	 
-* Top Starting locations
-![Checkout Times](./Datasources/Top_Starting_Locs.PNG) 
+### Top Starting locations
+![Checkout Times](./Datasources/Top_Starting_Locs.png) 
 
 * The above map shows most popular locations for starting bike journey or trips. The darker and larger the circle means more stations and more tourists. This helps us identify the highest-traffic locations. 
 
-* Top End locations 
+### Top End locations 
 
-![Checkout Times](./Datasources/End_locations.PNG)
+![Checkout Times](./Datasources/End_locations.png)
 
 * This map above shows the most popular locations for bike drop off locations. The darker(red) and larger the circle means the more stations in that location. 
 
-* Checkout Times for Users 
+### Checkout Times for Users 
 
-![Checkout Times user](./Datasources/Checkout_Users.PNG) 
+![Checkout Times user](./Datasources/Checkout_Users.png) 
 
 * the above viz shows the length of time that bikes are checked out for all users. The number of bikes checked out are highest for trip duration less that 25 minutes. 
 
-* Checkout Times by Gender 
+### Checkout Times by Gender 
 
-![Checkout Times Gender](./Datasources/Checkout_Times_Gender.PNG) 
+![Checkout Times Gender](./Datasources/Checkout_Times_Gender.png) 
 
 * the above viz shows the length of time that bikes are checked out by gender. The Orange line shows that the highest number of bikes are checked out by Male for most active trip duration which is less 25 minutes. Next is blue line which are female riders. 
 
 
-* Trips by Weekday for each Hour
-![Trips by Weekday Hour](./Datasources/Trips_Weekday_Hour.PNG) 
+### Trips by Weekday for each Hour
+![Trips by Weekday Hour](./Datasources/Trips_Weekday_Hour.png) 
 
 * the above viz shows the number of bike trips for all riders for each hour of each day of the week. The peak hours for bike trips during the month of August are from 5 pm - 7 pm for weekdays. For Saturday the number of bikes checked are high from 11 am - 3 pm.
 
-* Trips by Gender Weekday per Hour 
-![Trips by Gender](./Datasources/Trips_Weekday_Hour_Gender.PNG) 
+### Trips by Gender Weekday per Hour 
+![Trips by Gender](./Datasources/Trips_Weekday_Hour_Gender.png) 
 
-* the above viz shows the number of bike trips for each hour of each day of the week by Gender. The number of bike trips are highest for male during peak times 5 pm - 7pm and 8 am – 9 am. Also The highest numbers of bike trips are on Thursday and Friday, followed by Monday and Tuesday for same active hour.
-* Trips by Gender Weekday per Hour 
-![Trips by Gender](./Datasources/Trips_Weekday_Hour_Gender_Usertype.PNG) 
+* the above viz shows the number of bike trips for each hour of each day of the week by Gender. The number of bike trips are highest for male during peak times 5 pm - 7pm and 8 am â€“ 9 am. Also The highest numbers of bike trips are on Thursday and Friday, followed by Monday and Tuesday for same active hour.
+
+### Trips by Gender Weekday per Hour 
+![Trips by Gender](./Datasources/Trips_Weekday_Hour_Gender_Usertype.png) 
 
 * the above viz shows the number of bike trips for each day of the week by Gender and Usertype. Thursday and Friday have highest number of bike trips by Male subscribers, followed by female. We have also seen in the module; younger riders tend to use the bikes for longer periods of time. Mondays and Tuesdays have second highest number of bike trips by Male Subscribers.
 
-# Link to NYC Citibike Story
+### Link to NYC Citibike Story
 [CibiBike Visualization](https://public.tableau.com/authoring/CitiBike_Visualization_16465293946870/NYCCitibikeStory#1)
 
 ## **Summary** 
